@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <!-- <ImageView
+             android:id="@+id/ivca"
+             android:layout_width="wrap_content"
+             android:layout_height="108dp"
+             android:layout_marginTop="16dp"
+             android:layout_weight="1"
+             app:layout_constraintTop_toTopOf="parent"
+             app:srcCompat="@drawable/diary_v_two" /> -->
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/tvID1"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:textSize="0dp" />
+
+             <TextView
+                 android:id="@+id/tvName2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/alegreya_sans_medium"
+                 android:textColor="#000000"
+                 android:textSize="20dp"
+                 android:textStyle="bold"
+                 android:typeface="serif"
+                 android:layout_weight="2"
+                 android:layout_marginTop="10dp"/>
+
+             <TextView
+                 android:id="@+id/tvTime3"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/alegreya_sans_medium"
+                 android:textSize="10dp"
+                 android:typeface="serif"
+                 android:layout_weight="2"/>
+
+             <TextView
+                 android:id="@+id/tvAuthor4"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/alegreya_sans_medium"
+                 android:textSize="10dp"
+                 android:typeface="serif"
+                 android:layout_weight="2"/>
+
+             <TextView
+                 android:id="@+id/tvbody5"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/alegreya_sans_medium"
+                 android:textColor="#000000"
+                 android:textSize="15dp"
+                 android:typeface="serif"
+                 android:layout_weight="10"
+                 android:maxLines="5"
+                 android:minLines="0" />
+
+             <HorizontalScrollView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="bottom"
+                 android:gravity="bottom"
+                 android:orientation="horizontal"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintLeft_toLeftOf="parent"
+                 app:layout_constraintRight_toRightOf="parent"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp">
+
+                 <TextView
+                     android:id="@+id/tvht1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:textSize="0dp"
+                     android:text=""
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:typeface="serif" />
+
+                 <TextView
+                     android:id="@+id/tvht2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+
+                 <TextView
+                     android:id="@+id/tvht3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+
+                 <TextView
+                     android:id="@+id/tvht4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+
+                 <TextView
+                     android:id="@+id/tvht5"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+
+                 <TextView
+                     android:id="@+id/tvht6"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+
+                 <TextView
+                     android:id="@+id/tvht7"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+                 <TextView
+                     android:id="@+id/tvht8"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+                 <TextView
+                     android:id="@+id/tvht9"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+                 <TextView
+                     android:id="@+id/tvht10"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/white"
+                     android:background="@drawable/hashtag_layout_dream_journal"
+                     android:fontFamily="@font/bad_script"
+                     android:textAlignment="center"
+                     android:textSize="15dp"
+                     android:typeface="serif" />
+
+              </LinearLayout>
+             </HorizontalScrollView>
+         </LinearLayout>
+     </LinearLayout>
+ </android.support.constraint.ConstraintLayout>

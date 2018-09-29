@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="green">#42ff7e</color>
+    <color name="orange">#f4853a</color>
+    <color name="white">#ffffff</color>
+    <color name="diary">#c00000</color>
+    <color name="poem">#92D050</color>
+    <color name="notes">#E46C0A</color>
+    <color name="dream_journal">#450045</color>
+    <color name="grey">#39414E</color>
+    <color name="palegreen">#5AD9A4</color>
+</resources>
